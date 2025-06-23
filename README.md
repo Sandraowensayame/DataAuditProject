@@ -1,31 +1,47 @@
-# ICD-9 Audit Project
+# Data Audit Project (ICD‑9 Audit)
 
 ## 🔍 Project Overview
-This project analyzes hospital patient, admission, and diagnosis data (using ICD-9 codes) to identify and measure instances of coding errors. The goal is to help hospitals improve coding quality and patient care.
+This project analyzes patient, admission, and diagnosis data (using ICD‑9 codes) to assess data quality and identify coding errors. The goal is to demonstrate proficiency in **data cleaning, statistical analysis, and actionable insights generation**, making it highly relevant for entry‑level data analyst roles.
+
+---
 
 ## 📁 Files & Folders
-- **data/**: Original datasets (Patients, Admissions, Diagnoses).
-- **scripts/**: Python script (`audit_icd.py`) for data merging, error detection, and statistics.
-- **results/**: Exported results (`linked_results.csv`).
-- **reports/**: Final outputs (`ICD9_Audit_Dashboard.pdf`, error charts).
-- **dashboards/**: Power BI `.pbix` files.
+- **data/**: Original datasets (`Patients.csv`, `Admissions.csv`, `Diagnoses_ICD.csv`)  
+- **scripts/**: 
+  - `audit_icd.py`: Python script for merging, cleaning, and analyzing data
+- **results/**:
+  - `linked_results.csv`: Final merged dataset with error statistics
+- **reports/**:
+  - `ICD9_Audit_Dashboard.pdf`: Final Power BI Dashboard
+- **dashboards/**:
+  - `.pbix` files for interactive dashboards
+
+---
 
 ## ⚡️ Key Metrics
-- Total Records Analyzed
-- Audit Error Count
-- Audit Error Rate (%)
-- Error Rate by Gender, Admission Type, and other demographics
+- Total Records Analyzed  
+- Audit Error Count & Percentage  
+- Error Rate by Gender, Admission Type, and Ethnicity  
+- Statistical Measures (Mean, Percentage, Variance) for Data Quality Insights
 
-## 🛠️ Tools Used
-- **Python** (Pandas, Matplotlib, FPDF): Data processing and automated reporting
-- **Power BI**: Interactive dashboards and data visualization
+---
+
+## 🛠️ Tools & Techniques
+- **Data Analysis Tools:** Python (Pandas, Matplotlib), Excel, Power BI  
+- **Statistical Techniques:** Descriptive statistics, trend detection, error rate calculations  
+- **Business Impact:** Created actionable insights for quality improvement and error detection
+
+---
 
 ## 🚀 Outcome
-A clean, well-documented data auditing project that demonstrates:
-- Data wrangling and cleaning
-- Descriptive statistics
-- Dashboard design
-- Automated reporting
+- Developed a clean, well‑documented end‑to‑end workflow for analyzing patient data quality.  
+- Created interactive dashboards and statistical summaries for stakeholder review.  
+- Project showcases ability to work with complex datasets, ensuring accuracy and extracting actionable trends.
+
+---
 
 ## 👩‍💻 Author
-Created by **Sandra Owens Acheoja Ayame**
+Created by **Sandra Owens A. Ayame**  
+Email: sandraowensayame@gmail.com | [LinkedIn](https://www.linkedin.com/in/sandraowensayame)
+
+---
